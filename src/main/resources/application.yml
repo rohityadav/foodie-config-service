@@ -18,3 +18,14 @@ spring:
             uri: https://github.com/rohityadav/foodie-config-properties
 ---
 
+---
+
+spring:
+    profiles: docker
+    cloud:
+      config:
+        server:
+          git:
+            uri: https://github.com/rohityadav/foodie-config-properties
+---
+
